@@ -1,0 +1,47 @@
+body {
+    font-family: fantasy;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+#link1, #link2, #link3, #link4, #rechercher, #trajet {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #2dbeff;
+    font-weight: bold;
+}
+#logo  {
+    margin-left: 300px;
+    margin-right: 50px;
+}
+header img {
+    margin-right: 50px;
+}
+#link1 {
+    text-decoration: none;
+    color: #2dbeff;
+    font-weight: bold;
+}
+#link1 {
+    
+}
+#link1 {
+    
+}
+#link1 {
+    
+}
+#rechercher {
+
+}
+#trajet {
+
+}
+#coronavirus {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(237, 251, 252);
+    text-align: center;
+    }
