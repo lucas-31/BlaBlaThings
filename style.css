@@ -102,3 +102,17 @@ svg {
 #couverture {
     text-align: center;
 }
+/* <-- RECHERCHE --> */
+#topbar-recherche {
+    
+}
+#logo-recherche {
+    padding-left: 300px;
+    padding-right: 719px;
+}
+#titre-rechercher {
+    text-align: center;
+    color: #054752;
+    font-size: 40px;
+
+}
