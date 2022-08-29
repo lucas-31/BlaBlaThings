@@ -4,32 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&display=swap" rel="stylesheet">
     <title>BlablaThings</title>
 </head>
 <body>
+    <script src="app.js"></script>
     <header>
-        <img src="img/logo2.jpg" id="logo" width="200px" height="55px">
+        <div id="topbar">
+        <a href="file:///C:/Users/33784/Desktop/BlablaThings/index.html#"><img src="img/logo2.jpg" id="logo" width="200px" height="55px"></a>
         <a href="#" id="link1">Covoiturage</a>
         <a href="#" id="link2">Bus</a>
         <a href="#" id="link3">Covoiturage du quotidien</a>
         <a href="#" id="link4">Assurer mon véhicule</a>
-        <input type="text" placeholder="Rechercher" id="rechercher">
-        <input type="text" placeholder="Publier un tajet" id="trajet">
-        <img src="img/img.jpg" height="50px" width="50px"/>
-            <div class="btn-group">
-            <div class="dropdown">
-                <button class="btn btn-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Connexion</a></li>
-                  <li><a class="dropdown-item" href="#">Inscription</a></li>
-                </ul>
-            </div>
+        <div id="recherche">
+        <a href="#" id="text-recherche"><img src="img/loupe.png" id="icone">Rechercher</a>
+        </div>
+        <div id="ajouter">
+        <a href="#" id="text-ajouter"><img src="img/ajouter.png" id="icone">Publier un trajet</a>
+        </div>
+        <img src="img/profil.jpg" id="icone-connexion"/>
+        <div id="transition">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"/></svg>
+       
+       
+        
     </header>
-        <p id="coronavirus">Coronavirus et pass vaccinal : retrouvez les dernières infos sur notre <a href="#">centre d'aide !</a></p>
+        <p id="coronavirus">⚠ Coronavirus et pass vaccinal : retrouvez les dernières infos sur notre <a href="https://support.blablacar.com/hc/fr/articles/360015124400-Informations-relatives-%C3%A0-l-%C3%A9pid%C3%A9mie-de-coronavirus-COVID-19-" id="i">Centre d'aide.</a></p>
 
     <div id="couverture">
-        <img src="img/banniere.png" width="100%" height="700px"/>
+   <img src="img/banniere.png" width="80%" height="550px"/>
+
+   <div id="info">
+    <div id="p1">
+        <h4>Vos trajets préférés à petits prix</h4>
+        <p>Où que vous alliez, en bus ou en covoiturage, trouvez le trajet idéal parmi notre large choix de destinations à petits prix.</p>
+    </div>
+    <div id="p2">
+        <h4>Voyagez en toute confiance</h4>
+        <p>Nous prenons le temps qu’il faut pour connaître nos membres et nos compagnies de bus partenaires. Nous vérifions les avis, les profils et les pièces d’identité. Vous savez donc avec qui vous allez voyager pour réserver en toute confiance sur notre plateforme sécurisée.</p>
+    </div>
+        <div id="p3">
+        <h4>Recherchez, cliquez et réserver !</h4>
+        <p>Réserver un trajet devient encore plus simple ! Facile d'utilisation et dotée de technologies avancées, notre appli vous permet de réserver un trajet à proximité en un rien de temps.</p>
+    </div>
+    
+   </div>
+
     </div>
 </body>
 </html>

@@ -1,39 +1,49 @@
 body {
-    font-family: fantasy;
+    font-family: 'Fira Sans', sans-serif;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
+
 }
-#link1, #link2, #link3, #link4, #rechercher, #trajet {
-    margin-right: 50px;
+#topbar {
+    display: flex;
+    align-items: center; 
+    height: 48px;
+    margin: 12px 0;
+    font-size: 15px;
+}
+#link1, #link2, #link3, #link4, #rechercher, #trajet, #recherche {
+    margin-right: 25px;
     text-decoration: none;
-    color: #2dbeff;
+    color: #00aeff;
     font-weight: bold;
+}
+#coronavirus {
+    color: grey;
+}
+#i {
+    text-decoration: none;
+    color: #00aeff;
 }
 #logo  {
     margin-left: 300px;
-    margin-right: 50px;
-}
-header img {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 #link1 {
     text-decoration: none;
-    color: #2dbeff;
     font-weight: bold;
 }
-#link1 {
+#link2 {
     
 }
-#link1 {
+#link3 {
     
 }
-#link1 {
-    
+#link4 {
+    margin-right: 200px;
 }
 #rechercher {
+    font-size: 17px;
+    padding-top: 10px;
 
 }
 #trajet {
@@ -44,4 +54,56 @@ header img {
     padding-bottom: 15px;
     background-color: rgb(237, 251, 252);
     text-align: center;
+}
+#text-recherche, #text-ajouter {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #00aeff;
+}
+#icone {
+    width: 30px;
+    height: 30px;
+    margin: inherit;
+    padding-right: 5px;
+}
+#icone-connexion {
+    width: 45px;
+    height: 45px;
+    padding: 0 25px;
+}
+@keyframes return {
+    0% {
+        transform: rotate(0deg);
     }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+#transition:active {
+    animation-name: return;
+    animation-duration: 1s;   
+}
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#p1, #p2, #p3 {
+    height: 200px;
+    width: 350px;
+    margin: 0 25px;
+    font-weight: normal;
+}
+#p1 {
+
+}
+#p2 {
+
+}
+#p3 {
+
+}
+#couverture {
+    text-align: center;
+}
