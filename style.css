@@ -15,7 +15,6 @@ header {
     margin-right: 25px;
     text-decoration: none;
     color: #00aeff;
-    font-weight: bold;
 }
 #coronavirus {
     color: grey;
@@ -30,7 +29,6 @@ header {
 }
 #link1 {
     text-decoration: none;
-    font-weight: bold;
 }
 #link2 {
     
@@ -72,17 +70,14 @@ header {
     height: 45px;
     padding: 0 25px;
 }
-@keyframes return {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(180deg);
-    }
+svg {
+    transform: rotate(180deg);
 }
-#transition:active {
-    animation-name: return;
-    animation-duration: 1s;   
+#transition {
+    transition: transform .2s; 
+}
+#transition:active {  
+    transform: rotate(180deg); 
 }
 #info {
     display: flex;
