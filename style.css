@@ -86,9 +86,13 @@ svg {
 }
 #p1, #p2, #p3 {
     height: 200px;
-    width: 350px;
-    margin: 0 25px;
-    font-weight: normal;
+    width: 300px;
+    margin: 0 25px;;
+    color: gray;
+}
+#info h4 {
+    color: #054752;
+    font-weight: 500;
 }
 #p1 {
 
@@ -101,6 +105,59 @@ svg {
 }
 #couverture {
     text-align: center;
+    position: relative;
+}
+#couverture h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    
+}
+#formulaire-banniere {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#depart {
+    width: 200px;
+    height: 48px;
+    border: 0;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#destination {
+    width: 200px;
+    height: 48px;
+    border: 0;
+}
+#date {
+    width: 250px;
+    height: 50px;
+    border: 0;
+}
+#nbre {
+    width: 100px;
+    height: 50px;
+    border: 0;
+}
+#btn-recherche {
+    width: 150px;
+    height: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #00aeff;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: 0;
 }
 /* <-- RECHERCHE --> */
 #topbar-recherche {
