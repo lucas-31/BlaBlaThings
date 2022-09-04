@@ -1,5 +1,22 @@
+@media only screen and (min-width:1500px) {
+    #topbar {
+    }
+    #logo {
+        margin-left: 300px;
+    }
+    #link4 {
+        padding-right: 150px;
+    }
+}
+@media only screen and (min-width:900px) {
+    #couverture h1 {
+        font-size: 50px;
+    }
+}
 body {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    box-sizing: border-box;
 }
 header {
 
@@ -7,6 +24,7 @@ header {
 #topbar {
     display: flex;
     align-items: center; 
+    font-weight: 700;
     height: 48px;
     margin: 12px 0;
     font-size: 15px;
@@ -18,13 +36,14 @@ header {
 }
 #coronavirus {
     color: grey;
+    font-weight: 600;
 }
 #i {
     text-decoration: none;
     color: #00aeff;
 }
-#logo  {
-    margin-left: 300px;
+#logo {
+    
     margin-right: 20px;
 }
 #link1 {
@@ -37,7 +56,6 @@ header {
     
 }
 #link4 {
-    margin-right: 200px;
 }
 #rechercher {
     font-size: 17px;
@@ -48,10 +66,8 @@ header {
 
 }
 #coronavirus {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0px 15px 470px;
     background-color: rgb(237, 251, 252);
-    text-align: center;
 }
 #text-recherche, #text-ajouter {
     display: flex;
@@ -79,33 +95,30 @@ svg {
 #transition:active {  
     transform: rotate(180deg); 
 }
-#info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#cache {
+    display: none;
 }
-#p1, #p2, #p3 {
-    height: 200px;
+#coui {   
+    display: outside;
+    align-items: center;
+    position: absolute;
+    padding-top: 15px;
+    padding-right: 300px;
+}
+#coui button {
+    font-size: 15px;
     width: 300px;
-    margin: 0 25px;;
-    color: gray;
-}
-#info h4 {
-    color: #054752;
-    font-weight: 500;
-}
-#p1 {
-
-}
-#p2 {
-
-}
-#p3 {
-
+    height: 45px;
+    text-align: start;
+    border: none;
+} 
+#coui button:hover {
+    background-color: rgb(237, 251, 252);
 }
 #couverture {
     text-align: center;
     position: relative;
+    width: 100%;
 }
 #couverture h1 {
     position: absolute;
@@ -113,7 +126,6 @@ svg {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
     
 }
 #formulaire-banniere {
@@ -132,21 +144,35 @@ svg {
     justify-content: center;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 20px;
 }
 #destination {
+    font-weight: bold;
     width: 200px;
     height: 48px;
     border: 0;
+    font-size: 15px;
+    padding-left: 20px;
 }
 #date {
-    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+    width: 150px;
     height: 50px;
     border: 0;
+    padding-left: 20px;
+
 }
 #nbre {
-    width: 100px;
-    height: 50px;
+    font-weight: 700;
+    width: 150px;
+    height: 48px;
     border: 0;
+    font-size: 15px;
+    padding-left: 20px;
 }
 #btn-recherche {
     width: 150px;
@@ -173,3 +199,17 @@ svg {
     font-size: 40px;
 
 }
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#p1, #p2, #p3 {
+    height: 200px;
+    width: 300px;
+    margin: 0 25px;;
+    color: #054752;
+}
+
+
+
